@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 's_4_icomoon';
+  src:  url('https://cdn.shopify.com/s/files/1/0468/4595/2164/files/s4_icomoon.eot?v=1602569135');
+  src:  url('https://cdn.shopify.com/s/files/1/0468/4595/2164/files/s4_icomoon.eot?v=1602569135') format('embedded-opentype'),
+    url('https://cdn.shopify.com/s/files/1/0468/4595/2164/files/s4_icomoon.ttf?v=1602569135') format('truetype'),
+    url('https://cdn.shopify.com/s/files/1/0468/4595/2164/files/s4_icomoon.woff?v=1602569135') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ic-"], [class*=" ic-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 's_4_icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-facebook:before {
+  content: "\e940";
+}
+.ic-linkedin:before {
+  content: "\e941";
+}
+.ic-twitter:before {
+  content: "\e942";
+}
+.ic-google:before {
+  content: "\e943";
+}
+.ic-facebook1:before {
+  content: "\e944";
+}
